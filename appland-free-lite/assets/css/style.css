@@ -495,6 +495,7 @@ p {
 .navbar-area {
   position: absolute;
   top: 0;
+  padding-top: 30px;
   left: 0;
   width: 100%;
   z-index: 99;
@@ -528,12 +529,14 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  padding: 35px 0; }
+  padding: -100px 0; }
 
 .navbar-brand {
   padding: 0; }
   .navbar-brand img {
-    max-width: 150px; }
+    max-width: 275px;
+    max-height: 275px;
+  }
 
 .navbar-toggler {
   padding: 0; }
