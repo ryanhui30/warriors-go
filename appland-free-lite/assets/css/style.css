@@ -1040,23 +1040,23 @@ p {
         color: #FFC72C; /* Yellow */
       }
 
-      .single-services.services-color-2 .services-icon {
+      .single-services.services-color-3 .services-icon {
         background-color: #1D428A; /* Blue */
       }
-      .single-services.services-color-2 .services-icon::before {
+      .single-services.services-color-3 .services-icon::before {
         background-color: rgba(29, 66, 138, 0.2); /* Light blue */
       }
-      .single-services.services-color-2 .services-content .services-title a:hover {
+      .single-services.services-color-3 .services-content .services-title a:hover {
         color: #1D428A; /* Blue */
       }
 
-      .single-services.services-color-3 .services-icon {
+      .single-services.services-color-2 .services-icon {
         background-color: #FFC72C; /* Yellow */
       }
-      .single-services.services-color-3 .services-icon::before {
+      .single-services.services-color-2 .services-icon::before {
         background-color: rgba(255, 199, 44, 0.2); /* Light yellow */
       }
-      .single-services.services-color-3 .services-content .services-title a:hover {
+      .single-services.services-color-2 .services-content .services-title a:hover {
         color: #FFC72C; /* Yellow */
       }
 
