@@ -17,7 +17,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-      01.COMMON css 
+      01.COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700&display=swap");
 body {
@@ -489,7 +489,7 @@ p {
     transform: rotate(-130deg); } }
 
 /*===========================
-      02.HEADER css 
+      02.HEADER css
 ===========================*/
 /*===== NAVBAR =====*/
 .navbar-area {
@@ -732,85 +732,105 @@ p {
   @media (max-width: 767px) {
     .header-hero {
       height: auto; } }
-  .header-hero .shape {
-    position: absolute; }
+      .header-hero .shape {
+        position: absolute;
+    }
+
     .header-hero .shape.shape-1 {
-      width: 75px;
-      height: 75px;
-      background: -webkit-linear-gradient(rgba(254, 132, 100, 0.5) 0%, rgba(254, 110, 154, 0.5) 100%);
-      background: -o-linear-gradient(rgba(254, 132, 100, 0.5) 0%, rgba(254, 110, 154, 0.5) 100%);
-      background: linear-gradient(rgba(254, 132, 100, 0.5) 0%, rgba(254, 110, 154, 0.5) 100%);
-      border-radius: 50%;
-      left: 130px;
-      top: 25%;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        width: 75px;
+        height: 75px;
+        background: -webkit-linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+        background: -o-linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+        background: linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+        border-radius: 50%;
+        left: 130px;
+        top: 25%;
+        -webkit-animation: animation1 2s linear infinite;
+        -moz-animation: animation1 2s linear infinite;
+        -o-animation: animation1 2s linear infinite;
+        animation: animation1 2s linear infinite;
+    }
+
     .header-hero .shape.shape-2 {
-      width: 39px;
-      height: 39px;
-      background: -webkit-linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(17, 155, 210, 0.5) 100%);
-      background: -o-linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(17, 155, 210, 0.5) 100%);
-      background: linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(17, 155, 210, 0.5) 100%);
-      left: 150px;
-      bottom: 40px;
-      border-radius: 50%;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        width: 39px;
+        height: 39px;
+        background: -webkit-linear-gradient(rgba(45, 86, 168, 1) 0%, rgba(45, 86, 168, 0.5) 100%);
+        background: -o-linear-gradient(rgba(45, 86, 168, 1) 0%, rgba(45, 86, 168, 0.5) 100%);
+        background: linear-gradient(rgba(45, 86, 168, 1) 0%, rgba(45, 86, 168, 0.5) 100%);
+        left: 150px;
+        bottom: 40px;
+        border-radius: 50%;
+        -webkit-animation: animation1 2s linear infinite;
+        -moz-animation: animation1 2s linear infinite;
+        -o-animation: animation1 2s linear infinite;
+        animation: animation1 2s linear infinite;
+    }
+
     .header-hero .shape.shape-3 {
-      width: 19px;
-      height: 19px;
-      background: -webkit-linear-gradient(rgba(54, 28, 193, 0.5) 0%, rgba(46, 130, 239, 0.5) 100%);
-      background: -o-linear-gradient(rgba(54, 28, 193, 0.5) 0%, rgba(46, 130, 239, 0.5) 100%);
-      background: linear-gradient(rgba(54, 28, 193, 0.5) 0%, rgba(46, 130, 239, 0.5) 100%);
-      bottom: 25%;
-      left: 26%;
-      border-radius: 50%;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        width: 19px;
+        height: 19px;
+        background: -webkit-linear-gradient(rgba(77, 113, 195, 1) 0%, rgba(77, 113, 195, 0.5) 100%);
+        background: -o-linear-gradient(rgba(77, 113, 195, 1) 0%, rgba(77, 113, 195, 0.5) 100%);
+        background: linear-gradient(rgba(77, 113, 195, 1) 0%, rgba(77, 113, 195, 0.5) 100%);
+        bottom: 25%;
+        left: 26%;
+        border-radius: 50%;
+        -webkit-animation: animation1 2s linear infinite;
+        -moz-animation: animation1 2s linear infinite;
+        -o-animation: animation1 2s linear infinite;
+        animation: animation1 2s linear infinite;
+    }
+
     .header-hero .shape.shape-4 {
-      background-color: rgba(226, 158, 25, 0.55);
-      width: 39px;
-      height: 39px;
-      border-radius: 50%;
-      top: 175px;
-      left: 40%;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        background: -webkit-linear-gradient(rgba(255, 199, 44, 1) 0%, rgba(255, 199, 44, 0.5) 100%);
+        background: -o-linear-gradient(rgba(255, 199, 44, 1) 0%, rgba(255, 199, 44, 0.5) 100%);
+        background: linear-gradient(rgba(255, 199, 44, 1) 0%, rgba(255, 199, 44, 0.5) 100%);
+        width: 39px;
+        height: 39px;
+        border-radius: 50%;
+        top: 175px;
+        left: 40%;
+        -webkit-animation: animation1 2s linear infinite;
+        -moz-animation: animation1 2s linear infinite;
+        -o-animation: animation1 2s linear infinite;
+        animation: animation1 2s linear infinite;
+    }
+
     .header-hero .shape.shape-5 {
-      width: 19px;
-      height: 19px;
-      background-color: rgba(108, 99, 255, 0.55);
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-      transform: translateX(-50%);
-      bottom: 20%;
-      border-radius: 50%;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        width: 19px;
+        height: 19px;
+        background: -webkit-linear-gradient(rgba(253, 184, 19, 1) 0%, rgba(253, 184, 19, 0.5) 100%);
+        background: -o-linear-gradient(rgba(253, 184, 19, 1) 0%, rgba(253, 184, 19, 0.5) 100%);
+        background: linear-gradient(rgba(253, 184, 19, 1) 0%, rgba(253, 184, 19, 0.5) 100%);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        bottom: 20%;
+        border-radius: 50%;
+        -webkit-animation: animation1 2s linear infinite;
+        -moz-animation: animation1 2s linear infinite;
+        -o-animation: animation1 2s linear infinite;
+        animation: animation1 2s linear infinite;
+    }
+
     .header-hero .shape.shape-6 {
-      width: 14px;
-      height: 14px;
-      background-color: rgba(235, 163, 26, 0.55);
-      border-radius: 50%;
-      left: 45%;
-      bottom: 70px;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        width: 14px;
+        height: 14px;
+        background: -webkit-linear-gradient(rgba(254, 214, 81, 1) 0%, rgba(254, 214, 81, 0.5) 100%);
+        background: -o-linear-gradient(rgba(254, 214, 81, 1) 0%, rgba(254, 214, 81, 0.5) 100%);
+        background: linear-gradient(rgba(254, 214, 81, 1) 0%, rgba(254, 214, 81, 0.5) 100%);
+        border-radius: 50%;
+        left: 45%;
+        bottom: 70px;
+        -webkit-animation: animation1 2s linear infinite;
+        -moz-animation: animation1 2s linear infinite;
+        -o-animation: animation1 2s linear infinite;
+        animation: animation1 2s linear infinite;
+    }
+
 
 .header-shape-1 {
   position: absolute;
@@ -950,7 +970,7 @@ p {
           max-width: 250px; } }
 
 /*===========================
-      03.SERVICES css 
+      03.SERVICES css
 ===========================*/
 .single-services {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
@@ -964,7 +984,8 @@ p {
   padding: 45px 25px 35px; }
   @media (max-width: 767px) {
     .single-services {
-      padding: 40px 20px 30px; } }
+      padding: 40px 20px 30px;
+    } }
   .single-services .services-icon {
     width: 79px;
     height: 79px;
@@ -1006,81 +1027,109 @@ p {
           font-size: 20px; } }
     .single-services .services-content .text {
       margin-top: 30px; }
-  .single-services.services-color-1 .services-icon {
-    background-color: #E7A019; }
-    .single-services.services-color-1 .services-icon::before {
-      background-color: rgba(231, 160, 25, 0.2); }
-  .single-services.services-color-1 .services-content .services-title a:hover {
-    color: #E7A019; }
-  .single-services.services-color-2 .services-icon {
-    background-color: #E54F4F; }
-    .single-services.services-color-2 .services-icon::before {
-      background-color: rgba(229, 79, 79, 0.2); }
-  .single-services.services-color-2 .services-content .services-title a:hover {
-    color: #E54F4F; }
-  .single-services.services-color-3 .services-icon {
-    background-color: #8950E4; }
-    .single-services.services-color-3 .services-icon::before {
-      background-color: rgba(137, 80, 228, 0.2); }
-  .single-services.services-color-3 .services-content .services-title a:hover {
-    color: #8950E4; }
-  .single-services.services-color-4 .services-icon {
-    background-color: #0898E7; }
-    .single-services.services-color-4 .services-icon::before {
-      background-color: rgba(8, 152, 231, 0.2); }
-  .single-services.services-color-4 .services-content .services-title a:hover {
-    color: #0898E7; }
+      .single-services.services-color-1 .services-icon {
+        background-color: #FFC72C; /* Yellow */
+      }
+      .single-services.services-color-1 .services-icon::before {
+        background-color: rgba(255, 199, 44, 0.2); /* Light yellow */
+      }
+      .single-services.services-color-1 .services-content .services-title a:hover {
+        color: #FFC72C; /* Yellow */
+      }
+
+      .single-services.services-color-2 .services-icon {
+        background-color: #1D428A; /* Blue */
+      }
+      .single-services.services-color-2 .services-icon::before {
+        background-color: rgba(29, 66, 138, 0.2); /* Light blue */
+      }
+      .single-services.services-color-2 .services-content .services-title a:hover {
+        color: #1D428A; /* Blue */
+      }
+
+      .single-services.services-color-3 .services-icon {
+        background-color: #FFC72C; /* Yellow */
+      }
+      .single-services.services-color-3 .services-icon::before {
+        background-color: rgba(255, 199, 44, 0.2); /* Light yellow */
+      }
+      .single-services.services-color-3 .services-content .services-title a:hover {
+        color: #FFC72C; /* Yellow */
+      }
+
+      .single-services.services-color-4 .services-icon {
+        background-color: #1D428A; /* Blue */
+      }
+      .single-services.services-color-4 .services-icon::before {
+        background-color: rgba(29, 66, 138, 0.2); /* Light blue */
+      }
+      .single-services.services-color-4 .services-content .services-title a:hover {
+        color: #1D428A; /* Blue */
+      }
+
   .single-services:hover {
     -webkit-box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16);
     -moz-box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16);
     box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16); }
 
 /*===========================
-       04.ABOUT css 
+       04.ABOUT css
 ===========================*/
 .about-area {
-  background-color: #F3FDFF; }
+  background-color: #ffffff; }
 
-.about-image {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin-left: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  .about-image {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   @media (max-width: 767px) {
     .about-image {
       margin-left: 0;
       padding-top: 65px;
-      padding-bottom: 45px; } }
+      padding-bottom: 45px;
+    }
+  }
+
   .about-image .about-shape {
-    background: -webkit-linear-gradient(#61009d 0%, #cb107a 100%);
-    background: -o-linear-gradient(#61009d 0%, #cb107a 100%);
-    background: linear-gradient(#61009d 0%, #cb107a 100%);
+    background: -webkit-linear-gradient(135deg, #1D428A 0%, #FFC72C 100%);
+    background: -o-linear-gradient(135deg, #1D428A 0%, #FFC72C 100%);
+    background: linear-gradient(135deg, #1D428A 0%, #FFC72C 100%);
     width: 394px;
     height: 394px;
     border-radius: 50%;
-    position: relative; }
-    @media (max-width: 767px) {
-      .about-image .about-shape {
-        width: 294px;
-        height: 294px; } }
-    .about-image .about-shape::before {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      content: '';
-      -webkit-transform: scale(1.1) rotate(25deg);
-      -moz-transform: scale(1.1) rotate(25deg);
-      -ms-transform: scale(1.1) rotate(25deg);
-      -o-transform: scale(1.1) rotate(25deg);
-      transform: scale(1.1) rotate(25deg);
-      border-radius: 50%;
-      border: 2px solid #61009D;
-      border-top-color: transparent;
-      border-right-color: transparent; }
+    position: relative;
+  }
+
+  @media (max-width: 767px) {
+    .about-image .about-shape {
+      width: 294px;
+      height: 294px;
+    }
+  }
+
+  .about-image .about-shape::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    -webkit-transform: scale(1.1) rotate(25deg);
+    -moz-transform: scale(1.1) rotate(25deg);
+    -ms-transform: scale(1.1) rotate(25deg);
+    -o-transform: scale(1.1) rotate(25deg);
+    transform: scale(1.1) rotate(25deg);
+    border-radius: 50%;
+    border: 2px solid #1D428A;
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+
   .about-image .app {
     position: relative;
     -webkit-transform: rotate(-25deg) translateY(-15%);
@@ -1095,19 +1144,23 @@ p {
     -webkit-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
     box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 50px; }
-    @media (max-width: 767px) {
-      .about-image .app {
-        max-width: 190px;
-        border-radius: 25px;
-        top: 60px; } }
+    border-radius: 50px;
+  }
+
+  @media (max-width: 767px) {
+    .about-image .app {
+      max-width: 190px;
+      border-radius: 25px;
+      top: 60px;
+    }
+  }
 
 .about-content .main-btn {
   margin-top: 40px; }
 
 
 /*===========================
-     10.DOWNLOAD css 
+     10.DOWNLOAD css
 ===========================*/
 .download-area .download-image {
   padding-top: 65px;
@@ -1131,20 +1184,32 @@ p {
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .download-area .download-image .image {
         max-width: 295px; } }
-  .download-area .download-image .download-shape-1 {
-    width: 185px;
-    height: 185px;
-    background-color: #FEB21C;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; }
-  .download-area .download-image .download-shape-2 {
-    position: absolute;
-    bottom: -50px;
-    right: 40px;
-    z-index: -1; }
+        .download-area .download-image .download-shape-1 {
+          width: 185px;
+          height: 185px;
+          background: -webkit-linear-gradient(135deg, #1D428A 0%, #FFC72C 100%);
+          background: -o-linear-gradient(135deg, #1D428A 0%, #FFC72C 100%);
+          background: linear-gradient(135deg, #1D428A 0%, #FFC72C 100%);
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+        }
+
+        .download-area .download-image .download-shape-2 {
+          width: 150px; /* Adjust size as needed */
+          height: 150px; /* Adjust size as needed */
+          background: -webkit-linear-gradient(135deg, #FFC72C 0%, #1D428A 100%);
+          background: -o-linear-gradient(135deg, #FFC72C 0%, #1D428A 100%);
+          background: linear-gradient(135deg, #FFC72C 0%, #1D428A 100%);
+          position: absolute;
+          bottom: -50px;
+          right: 40px;
+          border-radius: 50%;
+          z-index: -1;
+        }
+
 
 .download-content .download-title {
   font-size: 34px;
@@ -1203,132 +1268,161 @@ p {
           box-shadow: 0px 4px 25px 0px rgba(82, 90, 99, 0.4); }
 
 /*===========================
-     10.FOOTER css 
+     10.FOOTER css
 ===========================*/
 .footer-area {
   position: relative;
   z-index: 5; }
   .footer-area .footer-shape {
-    position: absolute; }
+    position: absolute;
+}
+
+.footer-area .footer-shape.shape-1 {
+    background: -webkit-linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+    background: -o-linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+    background: linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    left: 70px;
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+@media (max-width: 767px) {
     .footer-area .footer-shape.shape-1 {
-      background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-      background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-      background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
-      width: 75px;
-      height: 75px;
-      border-radius: 50%;
-      left: 70px;
-      opacity: 0.55;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
-      @media (max-width: 767px) {
-        .footer-area .footer-shape.shape-1 {
-          left: auto;
-          right: 40px;
-          top: 25%; } }
+        left: auto;
+        right: 40px;
+        top: 25%;
+    }
+}
+
+.footer-area .footer-shape.shape-2 {
+    background: -webkit-linear-gradient(rgba(45, 86, 168, 1) 0%, rgba(45, 86, 168, 0.5) 100%);
+    background: -o-linear-gradient(rgba(45, 86, 168, 1) 0%, rgba(45, 86, 168, 0.5) 100%);
+    background: linear-gradient(rgba(45, 86, 168, 1) 0%, rgba(45, 86, 168, 0.5) 100%);
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    bottom: 40px;
+    left: 15%;
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-area .footer-shape.shape-2 {
-      background: -webkit-linear-gradient(#33c8c1 0%, #119bd2 100%);
-      background: -o-linear-gradient(#33c8c1 0%, #119bd2 100%);
-      background: linear-gradient(#33c8c1 0%, #119bd2 100%);
-      width: 39px;
-      height: 39px;
-      border-radius: 50%;
-      bottom: 40px;
-      left: 15%;
-      opacity: 0.55;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .footer-area .footer-shape.shape-2 {
-          bottom: 85px; } }
-      @media (max-width: 767px) {
-        .footer-area .footer-shape.shape-2 {
-          bottom: 110px; } }
+        bottom: 85px;
+    }
+}
+@media (max-width: 767px) {
+    .footer-area .footer-shape.shape-2 {
+        bottom: 110px;
+    }
+}
+
+.footer-area .footer-shape.shape-3 {
+    background: -webkit-linear-gradient(rgba(77, 113, 195, 1) 0%, rgba(77, 113, 195, 0.5) 100%);
+    background: -o-linear-gradient(rgba(77, 113, 195, 1) 0%, rgba(77, 113, 195, 0.5) 100%);
+    background: linear-gradient(rgba(77, 113, 195, 1) 0%, rgba(77, 113, 195, 0.5) 100%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 35%;
+    top: 40px;
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-area .footer-shape.shape-3 {
-      background: -webkit-linear-gradient(#361cc1 0%, #2e82ef 100%);
-      background: -o-linear-gradient(#361cc1 0%, #2e82ef 100%);
-      background: linear-gradient(#361cc1 0%, #2e82ef 100%);
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      left: 35%;
-      top: 40px;
-      opacity: 0.55;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .footer-area .footer-shape.shape-3 {
-          top: 40%; } }
-    .footer-area .footer-shape.shape-4 {
-      background-color: #EBA31A;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      left: 50%;
-      bottom: 5px;
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-      transform: translateX(-50%);
-      opacity: 0.55;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
-    .footer-area .footer-shape.shape-5 {
-      background-color: #E29E19;
-      right: 37%;
-      top: 0;
-      width: 39px;
-      height: 39px;
-      border-radius: 50%;
-      opacity: 0.55;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
-    .footer-area .footer-shape.shape-6 {
-      background-color: #B60D81;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      top: 125px;
-      right: 15%;
-      opacity: 0.55;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
+        top: 40%;
+    }
+}
+
+.footer-area .footer-shape.shape-4 {
+    background: -webkit-linear-gradient(rgba(255, 199, 44, 1) 0%, rgba(255, 199, 44, 0.5) 100%);
+    background: -o-linear-gradient(rgba(255, 199, 44, 1) 0%, rgba(255, 199, 44, 0.5) 100%);
+    background: linear-gradient(rgba(255, 199, 44, 1) 0%, rgba(255, 199, 44, 0.5) 100%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+
+.footer-area .footer-shape.shape-5 {
+    background: -webkit-linear-gradient(rgba(253, 184, 19, 1) 0%, rgba(253, 184, 19, 0.5) 100%);
+    background: -o-linear-gradient(rgba(253, 184, 19, 1) 0%, rgba(253, 184, 19, 0.5) 100%);
+    background: linear-gradient(rgba(253, 184, 19, 1) 0%, rgba(253, 184, 19, 0.5) 100%);
+    right: 37%;
+    top: 0;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+
+.footer-area .footer-shape.shape-6 {
+    background: -webkit-linear-gradient(rgba(254, 214, 81, 1) 0%, rgba(254, 214, 81, 0.5) 100%);
+    background: -o-linear-gradient(rgba(254, 214, 81, 1) 0%, rgba(254, 214, 81, 0.5) 100%);
+    background: linear-gradient(rgba(254, 214, 81, 1) 0%, rgba(254, 214, 81, 0.5) 100%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 125px;
+    right: 15%;
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+
+.footer-area .footer-shape.shape-7 {
+    background: -webkit-linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+    background: -o-linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+    background: linear-gradient(rgba(29, 66, 138, 1) 0%, rgba(29, 66, 138, 0.5) 100%);
+    width: 64px;
+    height: 64px;
+    bottom: 25px;
+    right: 8%;
+    border-radius: 50%;
+    -webkit-animation: animation1 2s linear infinite;
+    -moz-animation: animation1 2s linear infinite;
+    -o-animation: animation1 2s linear infinite;
+    animation: animation1 2s linear infinite;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-area .footer-shape.shape-7 {
-      background-color: #6C63FF;
-      width: 64px;
-      height: 64px;
-      bottom: 25px;
-      right: 8%;
-      opacity: 0.55;
-      border-radius: 50%;
-      -webkit-animation: animation1 2s linear infinite;
-      -moz-animation: animation1 2s linear infinite;
-      -o-animation: animation1 2s linear infinite;
-      animation: animation1 2s linear infinite; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .footer-area .footer-shape.shape-7 {
-          bottom: 20%; } }
-      @media (max-width: 767px) {
-        .footer-area .footer-shape.shape-7 {
-          bottom: 38%; } }
-    .footer-area .footer-shape.shape-8 {
-      top: 30px;
-      right: -45px; }
-  .footer-area .logo {
-    max-width: 200px; }
+        bottom: 20%;
+    }
+}
+@media (max-width: 767px) {
+    .footer-area .footer-shape.shape-7 {
+        bottom: 38%;
+    }
+}
+
+.footer-area .footer-shape.shape-8 {
+    top: 30px;
+    right: -45px;
+}
+
 
 .footer-about {
   max-width: 320px; }
